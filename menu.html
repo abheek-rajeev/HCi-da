@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Restaurant Menu</title>
+	<link rel="stylesheet" href="menu.css">
+</head>
+<header>
+	<img src="images/logo2.png" alt="" width="auto" height="70">
+	<nav>
+		<ul>
+			<li><a href="index.html" class="hover-underline-animation">Home</a></li>
+			<li><a href="about.html" class="hover-underline-animation">About Us</a></li>
+			<li><a href="menu.html" class="hover-underline-animation">Menu</a></li>
+			<li><a href="reservation.html" class="hover-underline-animation">Reservation</a></li>
+			<li><a href="delivery.html"class="hover-underline-animation">Cart</a></li>
+		</ul>
+	</nav>
+</header>
+<body>
+	<h1 style="display: flex;justify-content: center;padding-bottom: 10px;font-family: 'Tangerine', cursive; font-size: 100px;">Restaurant Menu</h1>
+	<nav class="nav2">
+		<a href="#" id="golden" onclick="keepone(); return false;" class="hover-underline-animation">GOLDEN HOUR</a>
+		<a href="#" id="DINNER" onclick="keeptwo(); return false;" class="hover-underline-animation">DINNER</a>
+		<a href="#" id="dessert" onclick="keepthree(); return false;" class="hover-underline-animation" >DESSERT</a>
+		<a href="#" id="cocktails" onclick="keepfour(); return false;" class="hover-underline-animation">COCKTAILS</a>
+		<a href="#" id="brunch" onclick="keepfive(); return false;" class="hover-underline-animation">BRUNCH</a>
+	</nav>
+	<div class="menu-details">
+		<section id="golden-hour-text" >
+			<div class="menu-description container-sm">
+				<h3>Available Monday-Friday | 5-6PM | $39</h3>
+				<p>&nbsp;</p>
+				<h2>FIRST COURSE</h2>
+				<p><em>Choice of One</em></p>
+				<p>BENGALI BEET CHOP<br>Winter Vegetables, Potatoes, Kasundi Mayo (V)*</p>
+				<p>SHRIMP KOLIWADA<br>Popcorn Style Fritters, Pickled Mango Sauce (GF)</p>
+				<p>SONA PIZZA<br>Choice of Tandoori Chicken or Paneer</p>
+				<p><br></p>
+				<h2>MAIN COURSE</h2>
+				<p><em>Choice of One</em></p>
+				<p>ANDHRA VEGETABLE CURRY<br>Seasonal Vegetables, Gongura Leaves, Coconut (V, GF)</p>
+				<p>VINDALOO BBQ PORK RIBS<br>Sticky Chili Glaze, Mango, Pickled Onion (GF)</p>
+				<p>BURRATA BUTTER CHICKEN<br>Tandoor Roasted Chicken, Creamy Tomato Sauce (GF)</p>
+				<p>GOAN FISH CURRY<br>Coconut Clam Broth, Kokum, Red Rice (GF)</p>
+				<p><br></p>
+				<h2>TAKEAWAY DESSERT</h2>
+				<p>Chocolate Dipped Pistachio Shortbread Cookies</p>
+				<p><br></p>
+				<h2>COCKTAILS +17</h2>
+				<p>MIMI'S MARGARITA<br>Milagro Silver Tequila, Chile Liqueur, Lime, Birdâ€™s Eye Chili, Cilantro, Agave
+				</p>
+				<p>SPA DAY<br>Smoke Lab Vodka, Aloe, Cucumber, Lime, Simple, Club Soda</p>
+				<p>GOLD NEGRONI<br>Jaisalmer Gin, Pamplemousse Liqueur, Saffron Liqueur, Sweet Vermouth, Dry Vermouth
+				</p>
+				<p>75 SUITORS<br>Jin-Jiji India Dry Gin, Aperol, Strawberry, Rosemary, Lemon, Eau de Rose, Simple,
+					Prosecco</p>
+				<p><br></p>
+				<h2>SPIRIT SHY +6</h2>
+				<p>PEACH PLEASE<br>Peach Puree, Honey, Lime, Ginger Beer</p>
+				<p>MANGO LASSI<br>Mango Puree, Yogurt</p>
+				<p><br></p>
+				<h2>WINE BY THE GLASS +15</h2>
+				<p>Bodegas Muga, Rioja Rosado, SP (2021) Garnacha, Tempranillo</p>
+				<p>Framingham, Marlborough, NZ (2021) Sauvignon Blanc</p>
+				<p>Altos Ibericos, Rioja, Crianza, SP (2017) Tempranillo</p>
+				<p><br></p>
+				<h2>BEER +7</h2>
+				<p>STELLA ARTOIS | ABV 5.2%</p>
+				<p>FOUNDERS CENTENNIAL IPA | ABV 7.2%</p>
+				<p><br></p>
+				<p>*Vegan or can be prepared vegan. Consuming raw or undercooked meats, poultry, seafood, shellfish or
+					eggs may increase your risk of foodborne illness.</p>
+			</div>
+		</section>
+
+		<section id="dinner-text">
+			<div class="menu-description container-sm">
+				<h2>TO START</h2>
+				<p>AVOCADO PAPDI CHAAT <strong>22</strong><br>Masala Guacamole, Crispy Taro Chips (VG, GF)</p>
+				<p>ROASTED PAPAD &amp; CHUTNEYS (V, GF) <strong>8</strong><br>Variety of Lentil and Rice Crackers with
+					Dips</p>
+				<p><br></p>
+				<h2>SMALL PLATES</h2>
+				<p>BENGALI BEET CHOP <strong>18</strong><br>Roasted Red Beet Croquettes, Kasundi Mayo (V)*</p>
+				<p>THECHA PANEER TIKKA <strong>22</strong><br>Riverrine Ranch Buffalo Milk Cheese, Spicy Peanut Green
+					Chili Chutney (V, GF)</p>
+				<p>SHRIMP KOLIWADA <strong>28</strong><br>Popcorn Style Fritters, Pickled Mango Sauce (GF)</p>
+				<p>BRISKET SHAMI KEBAB <strong>22</strong><br>Ground Beef, Chana Dal, Garam Masala&nbsp;</p>
+				<p>HEIRLOOM CARROT SALAD <strong>16</strong><br>Chaat Masala, Pumpkin Seeds, Mixed Greens (V)*</p>
+				<p>AAM PANNA CRUDO <strong>22</strong><br>Cured Hamachi Crudo, Green Mango, Cucumber, Fermented Chili
+					(GF)</p>
+				<p>ROASTED OYSTERS <strong>21</strong><br>Green Butter Roasted Oysters (1/2 Dozen)</p>
+				<p><br></p>
+				<h2>THE SONA PIZZA 24</h2>
+				<p>CHICKEN TIKKA<br>Burrata, Roasted Tomato Sauce</p>
+				<p>CHILI PANEER<br>Spiced Paneer, Jalapeno (V)</p>
+				<p>TRUFFLE MALAI MUSHROOM<br>Ricotta, Wild Mushroom Medley (V)</p>
+				<p><br></p>
+				<h2>FROM THE GRILL</h2>
+				<p>AMRITSARI MURG <strong>44</strong><br>Roasted Sundance Farm Chicken, Roasted Garlic Yogurt (GF)</p>
+				<p>VINDALOO BBQ PORK RIBS <strong>42</strong><br>Sticky Chili Glaze, Mango, Pickled Onion (GF)</p>
+				<p>TAMARIND LAMB CHOPS <strong>54</strong><br>Smoked Chili, Fennel Slaw, Garlic Raita (GF)</p>
+				<p>GRILLED BRANZINO <strong>48</strong><br>Green Chili, Kasundi Malai Curry (GF)</p>
+				<p>MALABAR PEPPERCORN STEAK <strong>48</strong><br>Tender Bavette Steak, Wild Mushrooms, Spiced Jus (GF)
+				</p>
+				<p><br></p>
+				<h2>ENTRÃ‰E</h2>
+				<p>ANDHRA VEGETABLE CURRY <strong>28</strong><br>Seasonal Vegetables, Gongura Leaves, Coconut (V, GF)
+				</p>
+				<p>SARSON KA SAAG <strong>28</strong><br>Punjabi Mustard Greens, Corn Roti (V)*</p>
+				<p>TRAVANCORE TOMATO DAL <strong>26</strong><br>Fermented Lentil Fritters, Curry Leaf Tadka (VG)</p>
+				<p>FLOYDâ€™S GOAN FISH CURRY <strong>36</strong><br>Coconut Clam Broth, Kokum, Red Rice (GF)</p>
+				<p>BURRATA BUTTER CHICKEN <strong>32</strong><br>Tandoor Roasted Chicken, Creamy San Marzano Tomato
+					Butter Masala (GF)</p>
+				<p>RAILWAY MUTTON MASALA <strong>42</strong><br>Slow Cooked Lamb Shoulder, Fingerling Potatoes (GF)</p>
+				<p><br></p>
+				<h2>VEGETABLES</h2>
+				<p>GRILLED EGGPLANT <strong>30</strong><br>Smoked Eggplant Chokha, Hierloom Tomato Salad (VG, GF)</p>
+				<p>ROASTED CAULIFLOWER <strong>26</strong><br>Turmeric, Green Chili, Indian Cheddar Cheese (V, GF)</p>
+				<p>RAJASTANI OKRA <strong>28</strong><br>Crisp Masala Okra, Yogurt Sauce (V, GF)</p>
+				<p>WILD MUSHROOM PEPPER ROAST <strong>28</strong><br>Spicy Chettinad Masala (VG, GF)</p>
+				<p><br></p>
+				<h2>BIRIYANI</h2>
+				<p>KOLKATA LAMB BIRIYANI<strong>&nbsp;42</strong><br>Saffron Yakhni Rice, Steamed Potatoes, Raita (GF)
+				</p>
+				<p>HYDERABADI CHICKEN BIRIYANI<strong>&nbsp;34</strong><br>Saffron Rice, Mint, Crispy Onions (GF)</p>
+				<p>AWADHI VEGETABLE BIRYANI<strong>&nbsp;32</strong><br>Saffron Rice, Seasonal Vegetable, Raita (V, GF)
+				</p>
+				<p><br></p>
+				<h2>BREADS</h2>
+				<p>NAAN (V)<br>Butter <strong>8</strong> | Garlic <strong>8</strong> | Chili Cheese <strong>10</strong>
+				</p>
+				<p>MULTIGRAIN ROTI (VG)<strong>&nbsp;8</strong></p>
+				<p>BUTTER CHICKEN KULCHA<strong>&nbsp;10</strong></p>
+				<p><br></p>
+				<h2>ACCOMPANIMENTS</h2>
+				<p>RICE (VG, GF) <strong>8</strong><br>Steamed Basmati | Goan Red Rice</p>
+				<p>RAITA (GF) <strong>6</strong><br>Roasted Eggplant | Cucumber</p>
+				<p>PICKLE PLATE (VG, GF) <strong>6</strong><br>House Made Pickled Radish, Carrots &amp; Green Mango</p>
+				<p><br></p>
+				<p>*Vegan or can be prepared vegan<br>Consuming raw or undercooked meats, poultry, seafood, shellfish or
+					eggs may increase your risk of food-borne illness.</p>
+
+			</div>
+		</section>
+
+		<section id="dessert-text">
+			<div class="menu-description container-sm">
+				<h2>CAKES &amp; SUCH 14</h2>
+				<p>KULFI FALOODA<br>Saffron Noodles, Basil Seeds, Rose Hips</p>
+				<p>GAJAR HALWA<br>Carrot Cake, Pistachio Crumb, Ginger Frozen Yogurt</p>
+				<p>SAFFRON JALEBI<br>Aerated Rabdi, Milk Cake, Lychee</p>
+				<p><br></p>
+				<h2>ICE CREAMS &amp; SORBETS 10</h2>
+				<p>MASALA CHAI ICE CREAM<br>Caramelized White Chocolate Crumble</p>
+				<p>PINK GUAVA SORBET<br>Chili Salt, Guava Candy</p>
+				<p>TENDER COCONUT ICE CREAM<br>Rum Poached Pineapple</p>
+				<p><br></p>
+				<h2>TO FINISH</h2>
+				<p>WAKE ME UP IN DELHI <strong>19</strong><br>Espresso, Vanilla Infused Vodka, Mr Black Cold Brew Coffee
+					Liqueur, Lucano Amaro, Chai Spiced Cream</p>
+				<p><br></p>
+				<h2>PORTS</h2>
+				<p>ROYAL TOKAJI, LATE HARVEST TOKAJ <strong>16</strong></p>
+				<p>DONA ANTONIA, RESERVA TAWNY <strong>15</strong></p>
+				<p>GRAHAM'S 40 TAWNY PORT <strong>45</strong></p>
+				<p><br></p>
+				<h2>APERITIFS</h2>
+				<p>AMARO MONTENEGRO PREMIATA 1885 SPECIALITA, BOLOGNA, ITALY <strong>17</strong></p>
+				<p>LUSTAU DON NUÃ‘O SECOâ€€DRY JEREZâ€€XÃˆRÃˆSâ€€SHERRY, SPAIN <strong>15</strong></p>
+				<p>CYNAR, AMARO APERITIF AND VERMOUTH, ITALY <strong>17</strong></p>
+				<p>FRANGELICO, HAZELNUT AND HERBAL LIQUEUR, ITALY <strong>15</strong></p>
+				<p>DISARONNO AMARETTO, ITALY <strong>16</strong></p>
+				<p>AVERNA AMARO SICILIANO 1868, ITALY <strong>18</strong></p>
+				<p>BAILEYS IRISH CREAM, IRELAND <strong>15</strong></p>
+				<p>SAMBUCA ROMANA, ITALY <strong>15</strong></p>
+
+			</div>
+		</section>
+
+		<section id="cocktails-text">
+			<div class="menu-description container-sm">
+				<h2>SPIRIT FORWARD</h2>
+				<p>THE OTHER WOMAN <strong>25</strong><br>Banhez Mezcal, Laphroaig 10yr Islay Scotch, Blackened Birdâ€™s
+					Eye Chili Tincture, Grapefruit Bitters, Agave</p>
+				<p>STARDUST <strong>22</strong><br>Kansas Whiskey, Elderflower Liqueur, Amaro Montenegro</p>
+				<p>DEEP IN LOVE <strong>20</strong><br>Casamigos Reposado, Cachaca, Rose Liqueur, Hisbiscus Syrup, Black
+					Salt</p>
+				<p>GOLD NEGRONI <strong>19</strong><br>Jaisalmer Gin, Pamplemousse Liqueur, Saffron Liqueur, Sweet
+					Vermouth, Dry Vermouth</p>
+				<p>75 SUITORS <strong>19</strong><br>Jin-Jiji India Dry Gin, Aperol, Strawberry, Rosemary, Lemon, Eau de
+					Rose, Simple, Prosecco</p>
+				<p>MIMI'S MARGARITA <strong>20</strong><br>Milagro Silver Tequila, Chile Liqueur, Lime, Birdâ€™s Eye
+					Chili, Cilantro, Agave</p>
+				<p>THE GIRL FROM GOA <strong>22</strong><br>Genepy Herbetet, Lychee Liqueur, Darjeeling Tea, Lemon,
+					Ginger, Black Peppercorn, Honey, Paprika</p>
+				<p>KUCHIPUDI <strong>24</strong><br>Mezcal, Elderflower Liqueur, Wasabi, Ginger, Birdâ€™s Eye Chili,
+					Mint, Buzz Button, Lime, Agave</p>
+				<p>SPA DAY <strong>19</strong><br>Smoke Lab Vodka, Aloe, Cucumber, Lime, Simple, Club Soda</p>
+				<p>SMOKED FASHION <strong>20</strong><br>Old Grand Dad Bourbon Whiskey, Demerara, Angostura, and Orange
+					Bitters</p>
+				<p><br></p>
+				<h2>SPIRIT SHY 14</h2>
+				<p>PEACH PLEASE<br>Peach Puree, Honey, Lime, Ginger Beer</p>
+				<p>LYCHEE PARADISE<br>Lychee, Darjeeling Black Tea, Lemon, Honey</p>
+				<p>MANGO MALAI<br>Mango Puree, Yogurt</p>
+				<p>KOKUM MOJITO<br>Kokum, Mint, Lime, Simple, Soda</p>
+				<p><br></p>
+				<h2>GIN &amp; TONICS 22</h2>
+				<p>NO. 1*<br>Bombay Sapphire Gin, Lemon, Vanilla, Orange Bitters, Eau de Orange Blossom, Star Anise</p>
+				<p>NO. 2*<br>Empress Gin, Lychee Liqueur, Lychee, Lemon, Honey</p>
+				<p>NO. 3*<br>Jin-JiJi India Dry Gin, Elderflower Liqueur, Grapefruit, Mint</p>
+				<p>NO. 4*<br>Hendricks Gin, Berries, Rose Liqueur, Cynar, Lemon</p>
+				<p>*Keep the Straw? <strong>+7</strong></p>
+				<p><br></p>
+				<h2>BEER</h2>
+				<p>KINGFISHER PALE LAGER, ABV 4.8% | <strong>8</strong></p>
+				<p>FOUNDERS CENTENNIAL IPA, ABV 7.2% | <strong>9</strong></p>
+				<p>SAISON DUPONT BELGIUM ALE, ABV 6.5% | <strong><strong>10</strong></strong></p>
+				<p>STELLA ARTOIS, ABV 5.2% | <strong>8</strong></p>
+				<p>HEINEKEN ZERO, ABV 0.0% | <strong><strong>7</strong></strong></p>
+				<h2><br></h2>
+				<h2>WINE BY THE GLASS</h2>
+				<p>SPARKLING<br>Jeio, Prosecco, Veneto, IT (NV) <strong>19/75</strong><br>Fiol RosÃ©, Prosecco, Veneto,
+					IT (2020) <strong>20/80</strong><br>Louis de Sacy, Brut Originel, Champagne, FR (NV)
+					<strong>27/108</strong><br>La Battagliola, Lambrusco, Grasparossa, (2021) <strong>19/75</strong></p>
+				<p>ROSE<br>Peyrassol La Croix, Provance, FR (2021) RosÃ© <strong>20/80</strong><br>Bodegas Muga, Rioja
+					Rosado, SP (2021) Garnacha, Tempranillo <strong>20/80</strong></p>
+				<p>WHITE<br>Pago del Cielo, Rueda, SP (2020) Verdejo <strong>18/72</strong><br>Framingham, Marlborough,
+					NZ (2021) Sauvignon Blanc <strong>21/84</strong><br>Domaine Luquet, Saint-VÃ©ran, Bourgogne, FR
+					(2020) Chardonnay <strong>21/84</strong><br>Von Kisel, Austria (2020) Gruner Veltliner
+					<strong>19/76</strong></p>
+				<p>RED<br>Rayo de Luz, Mendoza, Uco Valley, AR (2019) Malbec/Cabernet Franc/Merlot
+					<strong>23/90</strong><br>Domaine du Beaurenard, CÃ´tes du RhÃ´ne, FR (2021) Grenache/Syrah
+					<strong>21/85</strong><br>Altos IbÃ©ricos, Rioja Crianza, SP (2017) Tempranillo
+					<strong>19/76</strong><br>Silvan Ridge Winery, Rogue Valley, Oregon (2018) Cabernet Sauvignon
+					<strong>24/96</strong></p>
+
+			</div>
+		</section>
+
+		<section id="brunch-text">
+			<div class="menu-description container-sm">
+				<h3>Available Saturday-Sunday | 11AM - 2:30PM</h3>
+				<p><br></p>
+				<h2>FOR THE TABLE</h2>
+				<p>ROASTED PUMPKIN CHILI SALAD <strong>20</strong><br>Masala Chena, Pumpkin Seeds, Mixed Greens</p>
+				<p>TIKKA FLATBREAD <strong>24</strong><br>Burrata, Choice Of Tandoor Roasted Chicken Or Paneer (V)</p>
+				<p>SPICE CURED SALMON <strong>26</strong><br>House Cured Gravlax, Everything Bagel Seasoned Naan, Creme
+					Fraiche</p>
+				<p>OLD DELHI CHOLE TIKKI CHAAT<strong>&nbsp;18</strong><br>Slow Cooked Chickpeas, Smashed Potato Patty,
+					Yogurt, Chutneys (V)</p>
+				<p><br></p>
+				<h2>EGGS</h2>
+				<p>OMELETTE <strong>22</strong><br>Three Eggs, Masala And Herbs, Gruyere Cheese, Mixed Greens (GF)</p>
+				<p>EGG DOSA <strong>24</strong><br>Gluten-free Crepe, Gunpowder Masala, Fried Egg, Chutney (GF)</p>
+				<p>BREAKFAST BOWL <strong>20</strong><br>Sunny Egg, Avocado, Crispy Potatoes, Spiced Bacon Onion Chutney
+					(GF)</p>
+				<p>EGG &amp; CHEESE MASKA BUN <strong>15</strong><br>Buttered Brioche, Masala Eggs, Gruyere Cheese<br>+
+					Add Spiced Maple Bacon Or Lamb Sausage <strong>4</strong></p>
+				<p>DESI EGGS BENEDICT <strong>20</strong><br>Poached Eggs, Spinach, Gunpowder Hollandaise, Avocado
+					(GF)<br>+ Add Spice Cured Salmon <strong>4</strong></p>
+				<p><br></p>
+				<h2>INDIA HOUSEâ€™S BUTTER CHICKEN 32</h2>
+				<p>Tandoor Roasted Chicken, Smoked Tomato Cream Gravy<br>Served with Basmati Rice</p>
+				<p><br></p>
+				<h2>SWEET STUFF</h2>
+				<p>DUTCH BABY PANCAKE <strong>22</strong><br>Pineapple Jam, Coconut Cream, Lime</p>
+				<p>CARDAMOM WAFFLE <strong>22</strong><br>Jaggery Butter, Caramelized Bananas</p>
+				<p>SHRIKAND PARFAIT <strong>17</strong><br>Vanilla Cardamom Yogurt, Seasonal Fruit, Granola</p>
+				<p><br></p>
+				<h2>TOASTS &amp; SAMMIES</h2>
+				<p>AVOCADO TOAST <strong>18</strong><br>Toasted Sour Dough Bread, Cherry Tomato Chaat (V)<br>+ Add Fried
+					Or Poached Egg <strong>4</strong></p>
+				<p>CHILI CHEESE TOAST <strong>18</strong><br>Toasted Sour Dough Bread, Gruyere &amp; Amul Cheese, Chili
+					Chutney (V)<br>+ Add Fried Or Poached Egg <strong>4</strong></p>
+				<p>MADRAS FRIED CHICKEN SANDWICH <strong>23</strong><br>Green Peppercorn Brined Crispy Chicken, Toasted
+					Brioche, Masala Fries</p>
+				<p>SONA BURGER <strong>25</strong><br>Kebab Seasoned Patty, Gruyere Cheese, Tomato Chutney Masala Fries
+					Or Balsamic Greens<br>+ Add Fried Egg <strong>4</strong><br>+ Add Spiced Bacon Onion Chutney
+					<strong>4</strong></p>
+				<p><br></p>
+				<h2>ACCOMPANIMENTS</h2>
+				<p>Sliced n Spiced Avocado <strong>5</strong></p>
+				<p>Masala Fries <strong>8</strong></p>
+				<p>2 Side Eggs <strong>10</strong></p>
+				<p>Breakfast Potatoes <strong>8</strong></p>
+				<p>Spiced Maple Bacon <strong>9</strong></p>
+				<p>House Made Lamb Kebab Sausage Patty <strong>10</strong></p>
+				<p><br></p>
+				<h2>BREADS</h2>
+				<p>Butter Or Garlic Naan <strong>8</strong></p>
+				<p>Everything Bagel Seasoned Naan <strong>9</strong></p>
+				<p>Chili Cheese Naan <strong>10</strong></p>
+				<p>Pao <strong>8</strong></p>
+				<p><br></p>
+				<h2>FOR THE CHILDREN&nbsp;</h2>
+				<h3>(Ages 10 and Under)</h3>
+				<p>NAAN PIZZA <strong>12</strong><br>Cheese Pizza Served on Our Naan Bread</p>
+				<p>MINI CHEESEBURGER <strong>12</strong><br>Served with French Fries</p>
+				<p>GRILLED CHEESE <strong>12</strong><br>Served with French Fries</p>
+				<p>CRISPY CHICKEN NUGGETS <strong>12</strong><br>Served with French Fries</p>
+				<p>CHILD'S MANGO MALAI <strong>5</strong><br>Mango Puree, Yogurt</p>
+				<p>ORANGE JUICE<strong>&nbsp;<strong>5</strong></strong></p>
+				<p><br></p>
+				<h2>BRUNCH COCKTAILS 16</h2>
+				<p>WAKE ME UP IN DELHI<br>Espresso, Vanilla Infused Vodka, Mr. Black Cold Brew Coffee Liqueur, Lucano
+					Amaro, Chai Spiced Cream</p>
+				<p>GUAVA-MOSA<br>Fresh Guava, Giffard Pamplemousse, Fiol Prosecco</p>
+				<p>MUMBAI MARY<br>SONA's Take on a Classic<br><em>*Make it a Mumbai Maria with the substitution of
+						Milagro Silver Tequila*</em></p>
+				<p>SONA SPRITZ<br>Aperol, Pellegrino Aranciata Rossa, Riesling</p>
+				<p>CHAI ONE ON<br>Bartenderâ€™s Brunch Shot<br>One for 12, Two for 22, Four for 40</p>
+				<p><br></p>
+				<h2>SPIRIT FORWARD</h2>
+				<p>THE OTHER WOMAN <strong>25</strong><br>Banhez Mezcal, Laphroaig 10yr Islay Scotch, Blackened Birdâ€™s
+					Eye Chili Tincture, Grapefruit Bitters, Agave</p>
+				<p>STARDUST <strong>22</strong><br>Kansas Whiskey, Elderflower Liqueur, Amaro Montenegro</p>
+				<p>DEEP IN LOVE <strong>20</strong><br>Casamigos Reposado, Cachaca, Rose Liqueur, Hisbiscus Syrup, Black
+					Salt</p>
+				<p>GOLD NEGRONI <strong>19</strong><br>Jaisalmer Gin, Pamplemousse Liqueur, Saffron Liqueur, Sweet
+					Vermouth, Dry Vermouth</p>
+				<p>75 SUITORS <strong>19</strong><br>Jin-Jiji India Dry Gin, Aperol, Strawberry, Rosemary, Lemon, Eau de
+					Rose, Simple, Prosecco</p>
+				<p>MIMI'S MARGARITA <strong>20</strong><br>Milagro Silver Tequila, Chile Liqueur, Lime, Birdâ€™s Eye
+					Chili, Cilantro, Agave</p>
+				<p>THE GIRL FROM GOA <strong>22</strong><br>Genepy Herbetet, Lychee Liqueur, Darjeeling Tea, Lemon,
+					Ginger, Black Peppercorn, Honey, Paprika</p>
+				<p>KUCHIPUDI <strong>24</strong><br>Mezcal, Elderflower Liqueur, Wasabi, Ginger, Birdâ€™s Eye Chili,
+					Mint, Buzz Button, Lime, Agave</p>
+				<p>SPA DAY <strong>19</strong><br>Smoke Lab Vodka, Aloe, Cucumber, Lime, Simple, Club Soda</p>
+				<p>SMOKED FASHION <strong>20</strong><br>Old Grand Dad Bourbon Whiskey, Demerara, Angostura, and Orange
+					Bitters</p>
+				<p><br></p>
+				<h2>SPIRIT SHY 14</h2>
+				<p>PEACH PLEASE<br>Peach Puree, Honey, Lime, Ginger Beer</p>
+				<p>LYCHEE PARADISE<br>Lychee, Darjeeling Black Tea, Lemon, Honey</p>
+				<p>MANGO MALAI<br>Mango Puree, Yogurt</p>
+				<p>KOKUM MOJITO<br>Kokum, Mint, Lime, Simple, Soda</p>
+				<p><br></p>
+				<h2>GIN &amp; TONICS 22</h2>
+				<p>NO. 1*<br>Bombay Sapphire Gin, Lemon, Vanilla, Orange Bitters, Eau de Orange Blossom, Star Anise</p>
+				<p>NO. 2*<br>Empress Gin, Lychee Liqueur, Lychee, Lemon, Honey</p>
+				<p>NO. 3*<br>Jin-JiJi India Dry Gin, Elderflower Liqueur, Grapefruit, Mint</p>
+				<p>NO. 4*<br>Hendricks Gin, Berries, Rose Liqueur, Cynar, Lemon</p>
+				<p>*Keep the Straw? <strong>+7</strong></p>
+				<p><br></p>
+				<h2>BEER</h2>
+				<p>KINGFISHER PALE LAGER, ABV 4.8% | <strong>8</strong></p>
+				<p>FOUNDERS CENTENNIAL IPA, ABV 7.2% | <strong>9</strong></p>
+				<p>SAISON DUPONT BELGIUM ALE, ABV 6.5% | <strong><strong>10</strong></strong></p>
+				<p>STELLA ARTOIS, ABV 5.2% | <strong>8</strong></p>
+				<p>HEINEKEN ZERO, ABV 0.0% | <strong><strong>7</strong></strong></p>
+				<h2><br></h2>
+				<h2>WINE BY THE GLASS</h2>
+				<p>SPARKLING<br>Jeio, Prosecco, Veneto, IT (NV) <strong>19/75</strong><br>Fiol RosÃ©, Prosecco, Veneto,
+					IT (2020) <strong>20/80</strong><br>Louis de Sacy, Brut Originel, Champagne, FR (NV)
+					<strong>27/108</strong><br>La Battagliola, Lambrusco, Grasparossa, (2021) <strong>19/75</strong></p>
+				<p>ROSE<br>Peyrassol La Croix, Provance, FR (2021) RosÃ© <strong>20/80</strong><br>Bodegas Muga, Rioja
+					Rosado, SP (2021) Garnacha, Tempranillo <strong>20/80</strong></p>
+				<p>WHITE<br>Pago del Cielo, Rueda, SP (2020) Verdejo <strong>18/72</strong><br>Framingham, Marlborough,
+					NZ (2021) Sauvignon Blanc <strong>21/84</strong><br>Domaine Luquet, Saint-VÃ©ran, Bourgogne, FR
+					(2020) Chardonnay <strong>21/84</strong><br>Von Kisel, Austria (2020) Gruner Veltliner
+					<strong>19/76</strong></p>
+				<p>RED<br>Rayo de Luz, Mendoza, Uco Valley, AR (2019) Malbec/Cabernet Franc/Merlot
+					<strong>23/90</strong><br>Domaine du Beaurenard, CÃ´tes du RhÃ´ne, FR (2021) Grenache/Syrah
+					<strong>21/85</strong><br>Altos IbÃ©ricos, Rioja Crianza, SP (2017) Tempranillo
+					<strong>19/76</strong><br>Silvan Ridge Winery, Rogue Valley, Oregon (2018) Cabernet Sauvignon
+					<strong>24/96</strong></p>
+				<p><br></p>
+				<h2>PORTS</h2>
+				<p>ROYAL TOKAJI, LATE HARVEST TOKAJ <strong>16</strong></p>
+				<p>DONA ANTONIA, RESERVA TAWNY <strong>15</strong></p>
+				<p>GRAHAM'S 40 TAWNY PORT <strong>45</strong></p>
+				<p><br></p>
+				<h2>APERITIFS</h2>
+				<p>AMARO MONTENEGRO PREMIATA 1885 SPECIALITA, BOLOGNA, ITALY <strong>17</strong></p>
+				<p>LUSTAU DON NUÃ‘O SECOâ€€DRY JEREZâ€€XÃˆRÃˆSâ€€SHERRY, SPAIN <strong>15</strong></p>
+				<p>CYNAR, AMARO APERITIF AND VERMOUTH, ITALY <strong>17</strong></p>
+				<p>FRANGELICO, HAZELNUT AND HERBAL LIQUEUR, ITALY <strong>15</strong></p>
+				<p>DISARONNO AMARETTO, ITALY <strong>16</strong></p>
+				<p>AVERNA AMARO SICILIANO 1868, ITALY <strong>18</strong></p>
+				<p>BAILEYS IRISH CREAM, IRELAND <strong>15</strong></p>
+				<p>SAMBUCA ROMANA, ITALY <strong>15</strong></p>
+			</div>
+		</section>
+	</div>
+	<script src="menudet.js"></script>
+</body>
+
+</html>

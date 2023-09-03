@@ -1,0 +1,113 @@
+index.html
+1. style imgae shape to be equla
+2. style the store selection.
+
+
+
+class="" tabs-panel"" role="" tabpanel"" aria-labelledby="" tab-golden-hour""
+			aria-selected="" false""
+
+
+
+<!-- <div class="menu-description container-sm" id="golden-text">
+		<h3>Available Monday-Friday | 5-6PM | $39</h3>
+		<p>&nbsp;</p>
+		<h2>FIRST COURSE</h2>
+		<p><em>Choice of One</em></p>
+		<p>BENGALI BEET CHOP<br>Winter Vegetables, Potatoes, Kasundi Mayo (V)*</p>
+		<p>SHRIMP KOLIWADA<br>Popcorn Style Fritters, Pickled Mango Sauce (GF)</p>
+		<p>SONA PIZZA<br>Choice of Tandoori Chicken or Paneer</p>
+		<p><br></p>
+		<h2>MAIN COURSE</h2>
+		<p><em>Choice of One</em></p>
+		<p>ANDHRA VEGETABLE CURRY<br>Seasonal Vegetables, Gongura Leaves, Coconut (V, GF)</p>
+		<p>VINDALOO BBQ PORK RIBS<br>Sticky Chili Glaze, Mango, Pickled Onion (GF)</p>
+		<p>BURRATA BUTTER CHICKEN<br>Tandoor Roasted Chicken, Creamy Tomato Sauce (GF)</p>
+		<p>GOAN FISH CURRY<br>Coconut Clam Broth, Kokum, Red Rice (GF)</p>
+		<p><br></p>
+		<h2>TAKEAWAY DESSERT</h2>
+		<p>Chocolate Dipped Pistachio Shortbread Cookies</p>
+		<p><br></p>
+		<h2>COCKTAILS +17</h2>
+		<p>MIMI'S MARGARITA<br>Milagro Silver Tequila, Chile Liqueur, Lime, Birdâ€™s Eye Chili, Cilantro, Agave</p>
+		<p>SPA DAY<br>Aniseed Flavored Indian Vodka, Aloe, Cucumber, Lime, Simple, Club Soda</p>
+		<p>GOLD NEGRONI<br>Gin, Pamplemousse Liqueur, Saffron Liqueur, Sweet Vermouth, Dry Vermouth</p>
+		<p>75 SUITORS<br>Gin, Aperol, Strawberry, Rosemary, Lemon, Eau de Rose, Simple, Prosecco</p>
+		<p><br></p>
+		<h2>SPIRIT SHY +6</h2>
+		<p>PEACH PLEASE<br>Peach Puree, Honey, Lime, Ginger Beer</p>
+		<p>MANGO LASSI<br>Mango Puree, Yogurt</p>
+		<p><br></p>
+		<h2>WINE BY THE GLASS +15</h2>
+		<p>Bodegas Muga, Rioja Rosado, SP (2021) Garnacha, Tempranillo</p>
+		<p>Framingham, Marlborough, NZ (2021) Sauvignon Blanc</p>
+		<p>Altos Ibericos, Rioja, Crianza, SP (2017) Tempranillo</p>
+		<p><br></p>
+		<h2>BEER +7</h2>
+		<p>STELLA ARTOIS | ABV 5.2%</p>
+		<p>FOUNDERS CENTENNIAL IPA | ABV 7.2%</p>
+		<p><br></p>
+		<p>*Vegan or can be prepared vegan. Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may
+			increase your risk of foodborne illness.</p>
+	</div>
+	<div class="menu-description container-sm" id="dinner-text">
+		<h2>TO START</h2>
+		<p>AVOCADO PAPDI CHAAT <strong>22</strong><br>Masala Guacamole, Crispy Taro Chips (VG, GF)</p>
+		<p>ROASTED PAPAD &amp; CHUTNEYS (V, GF) <strong>8</strong><br>Variety of Lentil and Rice Crackers with Dips</p>
+		<p><br></p>
+		<h2>SMALL PLATES</h2>
+		<p>BENGALI BEET CHOP <strong>18</strong><br>Roasted Red Beet Croquettes, Kasundi Mayo (V)*</p>
+		<p>THECHA PANEER TIKKA <strong>22</strong><br>Riverrine Ranch Buffalo Milk Cheese, Spicy Peanut Green Chili
+			Chutney (V, GF)</p>
+		<p>SHRIMP KOLIWADA <strong>28</strong><br>Popcorn Style Fritters, Pickled Mango Sauce (GF)</p>
+		<p>BRISKET SHAMI KEBAB <strong>22</strong><br>Ground Beef, Chana Dal, Garam Masala&nbsp;</p>
+		<p>HEIRLOOM CARROT SALAD <strong>16</strong><br>Chaat Masala, Pumpkin Seeds, Mixed Greens (V)*</p>
+		<p>AAM PANNA CRUDO <strong>22</strong><br>Cured Hamachi Crudo, Green Mango, Cucumber, Fermented Chili (GF)</p>
+		<p>ROASTED OYSTERS <strong>21</strong><br>Green Butter Roasted Oysters (1/2 Dozen)</p>
+		<p><br></p>
+		<h2>THE SONA PIZZA 24</h2>
+		<p>CHICKEN TIKKA<br>Burrata, Roasted Tomato Sauce</p>
+		<p>CHILI PANEER<br>Spiced Paneer, Jalapeno (V)</p>
+		<p>TRUFFLE MALAI MUSHROOM<br>Ricotta, Wild Mushroom Medley (V)</p>
+		<p><br></p>
+		<h2>FROM THE GRILL</h2>
+		<p>AMRITSARI MURG <strong>44</strong><br>Roasted Sundance Farm Chicken, Roasted Garlic Yogurt (GF)</p>
+		<p>VINDALOO BBQ PORK RIBS <strong>42</strong><br>Sticky Chili Glaze, Mango, Pickled Onion (GF)</p>
+		<p>TAMARIND LAMB CHOPS <strong>54</strong><br>Smoked Chili, Fennel Slaw, Garlic Raita (GF)</p>
+		<p>GRILLED BRANZINO <strong>48</strong><br>Green Chili, Kasundi Malai Curry (GF)</p>
+		<p>MALABAR PEPPERCORN STEAK <strong>48</strong><br>Tender Bavette Steak, Wild Mushrooms, Spiced Jus (GF)</p>
+		<p><br></p>
+		<h2>ENTRÃ‰E</h2>
+		<p>ANDHRA VEGETABLE CURRY <strong>28</strong><br>Seasonal Vegetables, Gongura Leaves, Coconut (V, GF)</p>
+		<p>SARSON KA SAAG <strong>28</strong><br>Punjabi Mustard Greens, Corn Roti (V)*</p>
+		<p>TRAVANCORE TOMATO DAL <strong>26</strong><br>Fermented Lentil Fritters, Curry Leaf Tadka (VG)</p>
+		<p>FLOYDâ€™S GOAN FISH CURRY <strong>36</strong><br>Coconut Clam Broth, Kokum, Red Rice (GF)</p>
+		<p>BURRATA BUTTER CHICKEN <strong>32</strong><br>Tandoor Roasted Chicken, Creamy San Marzano Tomato Butter
+			Masala (GF)</p>
+		<p>RAILWAY MUTTON MASALA <strong>42</strong><br>Slow Cooked Lamb Shoulder, Fingerling Potatoes (GF)</p>
+		<p><br></p>
+		<h2>VEGETABLES</h2>
+		<p>GRILLED EGGPLANT <strong>30</strong><br>Smoked Eggplant Chokha, Hierloom Tomato Salad (VG, GF)</p>
+		<p>ROASTED CAULIFLOWER <strong>26</strong><br>Turmeric, Green Chili, Indian Cheddar Cheese (V, GF)</p>
+		<p>RAJASTANI OKRA <strong>28</strong><br>Crisp Masala Okra, Yogurt Sauce (V, GF)</p>
+		<p>WILD MUSHROOM PEPPER ROAST <strong>28</strong><br>Spicy Chettinad Masala (VG, GF)</p>
+		<p><br></p>
+		<h2>BIRIYANI</h2>
+		<p>KOLKATA LAMB BIRIYANI<strong>&nbsp;42</strong><br>Saffron Yakhni Rice, Steamed Potatoes, Raita (GF)</p>
+		<p>HYDERABADI CHICKEN BIRIYANI<strong>&nbsp;34</strong><br>Saffron Rice, Mint, Crispy Onions (GF)</p>
+		<p>AWADHI VEGETABLE BIRYANI<strong>&nbsp;32</strong><br>Saffron Rice, Seasonal Vegetable, Raita (V, GF)</p>
+		<p><br></p>
+		<h2>BREADS</h2>
+		<p>NAAN (V)<br>Butter <strong>8</strong> | Garlic <strong>8</strong> | Chili Cheese <strong>10</strong></p>
+		<p>MULTIGRAIN ROTI (VG)<strong>&nbsp;8</strong></p>
+		<p>BUTTER CHICKEN KULCHA<strong>&nbsp;10</strong></p>
+		<p><br></p>
+		<h2>ACCOMPANIMENTS</h2>
+		<p>RICE (VG, GF) <strong>8</strong><br>Steamed Basmati | Goan Red Rice</p>
+		<p>RAITA (GF) <strong>6</strong><br>Roasted Eggplant | Cucumber</p>
+		<p>PICKLE PLATE (VG, GF) <strong>6</strong><br>House Made Pickled Radish, Carrots &amp; Green Mango</p>
+		<p><br></p>
+		<p>*Vegan or can be prepared vegan<br>Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs
+			may increase your risk of food-borne illness.</p>
+
+	</div> -->
