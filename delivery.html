@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Delivery Website</title>
+  <link rel="stylesheet" href="delivery.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo2.png" alt="" width="auto" height="70">
+    <nav>
+      <ul>
+        <li><a href="index.html" class="hover-underline-animation">Home</a></li>
+        <li><a href="about.html" class="hover-underline-animation">About Us</a></li>
+        <li><a href="menu.html" class="hover-underline-animation">Menu</a></li>
+        <li><a href="reservation.html" class="hover-underline-animation">Reservation</a></li>
+        <li><a href="delivery.html" class="hover-underline-animation">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <h2>Welcome to Our Restaurant </h2>
+      <a href="confirmed.html" class="button" target="_blank">Order Now</a>
+    </section>
+    <section id="menu">
+      <h2>Our Combos</h2>
+      <ul>
+        <li>
+          <h3>GOLDEN HOUR MEAL</h3>
+          <p>SHRIMP KOLIWADA + BURRATA BUTTER CHICKEN + GOLD NEGRONI + Altos Ibericos</p>
+          <p class="price">$60.00</p>
+          <a href="#" id="gold" class="button" onclick="gold(); return false;">Add to Cart</a>
+        </li>
+        <li>
+          <h3>BRUNCH MEAL</h3>
+          <p>Buttered Brioche, Masala Eggs, Gruyere Cheese
+            + Add Spiced Maple Bacon Or Lamb Sausage+ CARDAMOM WAFFLE + Breakfast Potatoes.</p>
+          <p class="price">$50.00</p>
+          <a href="#" id="brunch" class="button" onclick="brunch(); return false;">Add to Cart</a>
+        </li>
+        <li>
+          <h3>DINNER MEAL</h3>
+          <p>BENGALI BEET CHOP + BRISKET SHAMI KEBAB + MALABAR PEPPERCORN STEAK + SAFFRON JALEBI + SAMBUCA ROMANA.</p>
+          <p class="price">$48.00</p>
+          <a href="#" id="dinner" class="button" onclick="din(); return false;">Add to Cart</a>
+        </li>
+      </ul>
+      <script src="cart.js"></script>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Restaurant Name</p>
+  </footer>
+</body>
+</html>
